@@ -1,0 +1,19 @@
+{
+  "files": {
+    "main.css": "/WebPageWReact/static/css/main.c77b76b9.css",
+    "main.js": "/WebPageWReact/static/js/main.da8d858f.js",
+    "static/js/787.28cb0dcd.chunk.js": "/WebPageWReact/static/js/787.28cb0dcd.chunk.js",
+    "static/media/halo-20th-anniversary-8k-mb-2560x1080.jpg": "/WebPageWReact/static/media/halo-20th-anniversary-8k-mb-2560x1080.b5b41ef9276a6d1e9866.jpg",
+    "static/media/halo wars.jpg": "/WebPageWReact/static/media/halo wars.76bd341500f9b691f182.jpg",
+    "static/media/halo 3.jpg": "/WebPageWReact/static/media/halo 3.90684b22de7208b4dd33.jpg",
+    "static/media/halo reach.jpg": "/WebPageWReact/static/media/halo reach.ef14e12ac06b5f2615ac.jpg",
+    "index.html": "/WebPageWReact/index.html",
+    "main.c77b76b9.css.map": "/WebPageWReact/static/css/main.c77b76b9.css.map",
+    "main.da8d858f.js.map": "/WebPageWReact/static/js/main.da8d858f.js.map",
+    "787.28cb0dcd.chunk.js.map": "/WebPageWReact/static/js/787.28cb0dcd.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c77b76b9.css",
+    "static/js/main.da8d858f.js"
+  ]
+}

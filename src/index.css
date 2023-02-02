@@ -1,13 +1,112 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+
+div{
+    margin: 0;
+
+}
+h1{
+    color: white;
+    text-align: center;
+    font-size: 5vw;
+}
+p{
+    font-size: 3vw;
+    text-align: center;
+    margin: 0;
+    color: white;
+}
+section{
+    display: flex;
+    width: 100vw;
+    height: 55vh;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+section img {
+    width: 10vw;
+    flex-grow: 1;
+    object-fit: cover;
+    opacity: .8;
+    transition: .5s ease;
+}
+section img:hover{
+    cursor: crosshair;
+    width: 15vw;
+    opacity: 1;
+    filter: contrast(120%);
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+}
+
+.navbar {
+    display: flex;
+    flex: 1;
+    align-items: center;
+    justify-content: center;
+    padding: 0;
+}
+
+.navbar a {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 3vmin;
+    color: #3089DB;
+    padding: 0 2%;
+    text-decoration: none;
+    border: solid 1px ;
+  }
+
+/* @media screen and(max-width: 700px) {
+        section img:hover{
+        width: 20vw;
+        opacity: 1;
+        filter: contrast(120%);
+    }
+
+    .about{
+        height: 10vh;
+    }
+    .services{
+        height: 10vh;
+    }
+    .lenguajes{
+        height: 10vh;
+    }
+    .contacto{
+        height: 10vh;
+    }
+} */
+
+
+/*secciónes*/
+.sections{
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.about{
+    background: url('./img/halo\ 3.jpg');
+    background-size: cover;
+    height: 700px;
+}
+
+.services{
+    background: url('./img/halo\ reach.jpg');
+    background-size: cover;
+    height: 700px;
+}
+
+.lenguajes{
+    background: url('img/halo\ wars.jpg');
+    background-size: cover;
+    height: 700px;
+}
+
+.contacto{
+    background: url('img/halo-20th-anniversary-8k-mb-2560x1080.jpg');
+    background-size: cover;
+    height: 700px;
 }
